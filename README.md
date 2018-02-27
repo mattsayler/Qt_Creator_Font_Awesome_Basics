@@ -32,7 +32,7 @@ FontLoader {
 ![Screenshot of the example app with usages labeled](/tutorial-assets/AppScreenshotLabels.png)
 
 - Before beginning, you'll need the character code for the icon(s) you want to use.
-- A simple way to get this code is to browse to the icon on the Font Awesome website.
+- A simple way to get this code is to [browse to the icon](https://fontawesome.com/icons?d=gallery) on the Font Awesome website.
 - The code will appear towards the upper left of the page, underneath the character name.
 ![Where to locate the characer code](/tutorial-assets/CharacterCode.png)
 
