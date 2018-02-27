@@ -13,7 +13,7 @@ Font Awesome is a set of standardized vector icons for use in websites and appli
 ## Getting Started
 - After you have created a new app, browse to the [Font Awesome](https://fontawesome.com/ "Font Awesome") website and download Font Awesome.
 
-  _**Tip:** Browse around the website some to see what's available and which font set(s) have the icons you want to use._
+_**Tip:** Browse around the website some to see what's available and which font set(s) have the icons you want to use._
 - Unzip the file. There will be several folders and files inside.
 - Browse to "web-fonts-with-css/webfonts/" folder.
 - Copy the True Type Font (.ttf) file(s) for the font set(s) you want to use into your application's 'asset' folder (you may need more thn one).
