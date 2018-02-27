@@ -1,5 +1,9 @@
 # Qt Creator Font Awesome Basics
-_This tutorial describes the basic approach for using Font Awesome's icons in Qt Creator. The example code is a simplified version of [Esri's ArcGIS AppStudio](https://doc.arcgis.com/en/appstudio/) Font Awesome sample._ 
+
+## About This Tutorial
+This tutorial describes the basic approaches for using Font Awesome's icons in Qt Creator. It is aimed towards people that have at least a little experience working with qml. The code examples\* below reference the [MyApp.qml](Font-Awesome-example) file in the Font-Awesome-example folder.
+
+_\*The example app is a simplified version of [Esri's ArcGIS AppStudio](https://doc.arcgis.com/en/appstudio/) Font Awesome sample._
 
 ## What is Font Awesome?
 Font Awesome is a set of standardized vector icons for use in websites and applications. Using these icons in your application can be a simple way to make it look more professional. They are available in a variety of formats, but for this tutorial we will be making use of the font file format.
@@ -8,7 +12,8 @@ Font Awesome is a set of standardized vector icons for use in websites and appli
 
 ## Getting Started
 - After you have created a new app, browse to the [Font Awesome](https://fontawesome.com/ "Font Awesome") website and download Font Awesome.
-  - _**Tip:** Browse around the website some to see what's available and which font set(s) have the icons you want to use._
+
+  _**Tip:** Browse around the website some to see what's available and which font set(s) have the icons you want to use._
 - Unzip the file. There will be several folders and files inside.
 - Browse to "web-fonts-with-css/webfonts/" folder.
 - Copy the True Type Font (.ttf) file(s) for the font set(s) you want to use into your application's 'asset' folder (you may need more thn one).
@@ -55,7 +60,8 @@ Text {
 ### Icon with Label
 - To setup a label for the icon, use an additional ```Text{}``` class
 - Use anchors to place the label in relation to the icon
-  - _**Tip:** use the ```qsTr()``` function to mark a string for localization translation._
+
+_**Tip:** use the ```qsTr()``` function to mark a string for localization translation._
 - Example from qml:
 ```qml
 //line 94 from example qml
