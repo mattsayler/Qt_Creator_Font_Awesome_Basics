@@ -1,5 +1,10 @@
 # Qt Creator Font Awesome Basics
-_This tutorial describes the basic approach for using Font Awesome's icons in Qt Creator. The example code is a simplified version of Esri's ArcGIS AppStudio Font Awesome sample._ 
+_This tutorial describes the basic approach for using Font Awesome's icons in Qt Creator. The example code is a simplified version of [Esri's ArcGIS AppStudio](https://doc.arcgis.com/en/appstudio/) Font Awesome sample._ 
+
+## What is Font Awesome?
+Font Awesome is a set of standardized vector icons for use in websites and applications. Using these icons in your application can be a simple way to make it look more professional. They are available in a variety of formats, but for this tutorial we will be making use of the font file format.
+
+![Screenshot of the example app](/tutorial-assets/AppScreenshot.png)
 
 ## Getting Started
 - After you have created a new app, browse to the [Font Awesome](https://fontawesome.com/ "Font Awesome") website and download Font Awesome.
@@ -24,10 +29,12 @@ FontLoader {
 
 ## Using an Icon from the Font File
 
+![Screenshot of the example app with usages labeled](/tutorial-assets/AppScreenshotLabels.png)
+
 - Before beginning, you'll need the character code for the icon(s) you want to use.
 - A simple way to get this code is to browse to the icon on the Font Awesome website.
 - The code will appear towards the upper left of the page, underneath the character name.
-***ScreenShot***
+![Where to locate the characer code](/tutorial-assets/CharacterCode.png)
 
 ### Single Icon
 - Use a ```Text{}``` class to load the icon
